@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="login.css" />
+    <!-- <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      button {
+        background-color: white;
+        font-size: 16px;
+        letter-spacing: 2px;
+        border: 0.5px solid gray;
+        background-color: rgb(224, 224, 224);
+        color: rgb(0, 0, 0);
+      }
+      button:hover {
+        background-color: rgb(54, 54, 54);
+        color: white;
+        transition: all 0.4s ease 0s;
+      }
+      input:hover {
+        border: 0.5px solid gray;
+        transition: all 0.4s ease 0s;
+        background-color: rgb(216, 216, 216);
+      }
+      #logo {
+        width: 300px;
+        margin: auto;
+        margin-top: 100px;
+      }
+      img {
+        width: 100%;
+      }
+      #form {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        margin-top: 50px;
+      }
+      input {
+        width: 70%;
+        height: 30px;
+        margin-left: 15%;
+        margin-top: 20px;
+      }
+      button {
+        width: 72%;
+        height: 30px;
+        margin-left: 15%;
+        margin-top: 20px;
+      }
+      #signup {
+        width: 200px;
+        height: 30px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+      }
+      h4 {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style> -->
+  </head>
+  <body>
+    <div id="logo">
+      <img
+        src="https://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA"
+        alt="logo"
+      />
+    </div>
+    <hr />
+    <div id="form">
+      <form action="login">
+        <input type="text" id="username" placeholder="username" />
+        <input type="password" placeholder="password" id="password" />
+        <button id="button">LOGIN</button>
+      </form>
+      <h4>OR</h4>
+      <button id="signup">Create New Account</button>
+    </div>
+
+    <!-- <script>
+      var button = document.getElementById("button");
+
+      function login(e) {
+        e.preventDefault();
+        var usernameFromStorage = document.getElementById("username").value;
+        var passwordFromStorage = document.getElementById("password").value;
+        var userData = localStorage.getItem("userDetails", data);
+        var data = JSON.parse(userData);
+        console.log(data.username);
+        if (usernameFromStorage.length <= 0) {
+          alert("Enter Username and Password");
+        } else {
+          if (usernameFromStorage == data.username && passwordFromStorage == data.password) {
+            alert("Login Successfull");
+            window.location.href = "landingpage.html";
+          } else {
+            alert("Invalid Username or Password");
+          }
+        }
+      }
+      function signPage() {
+        window.location.href = "./signup.html";
+      }
+      document.getElementById("signup").addEventListener("click", signPage);
+      button.addEventListener("click", login);
+    </script> -->
+    <script src="login.js"></script>
+  </body>
+</html>
