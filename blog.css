@@ -59,6 +59,74 @@
     border: 2px solid red;
 }
 
+.MYM, .BC {
+    margin-top: 4%;
+    border: 2px solid red;
+    margin-bottom: 2%;
+}
+
+.MYM > h2 {
+    font-family: RFdisplayRegular;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.MYM > p {
+    font-family: rf_proximaNovaLight;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.MYM_flex, .BC_flex {
+    display: flex;
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.item {
+    border: 2px solid red;
+    width: 18%;
+    box-sizing: border-box;
+}
+
+.item_bc {
+    border: 2px solid red;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.BC h2, .CWU h2 {
+    text-align: center;
+    font-family: RFdisplayRegular;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    font-weight: 200;
+}
+
+.item img, .item_bc img {
+    max-width: 100%;
+}
+
+.item h2, .item p, .item_bc h2, .CWU p, .KIT h2 {
+    border: 2px solid red;
+    font-weight: 200;
+    font-family: rf_proximaNovaRegular;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-align: center;
+}
+
 .three > div:nth-child(1) > p, .three > div:nth-child(1) > h1, .three > div:nth-child(1) > a {
     width: 45%;
     border: 2px solid red;
@@ -90,7 +158,7 @@
     font-weight: 200;
 }
 
-.most_recent_articles {
+.most_recent_articles, .connect_with_us {
     margin: auto;
     display: flex;
     overflow-x: auto;
@@ -100,7 +168,7 @@
     width: 70%;
 }
 
-.most_recent_articles::-webkit-scrollbar {
+.most_recent_articles::-webkit-scrollbar, .connect_with_us::-webkit-scrollbar {
     width: 0;
 }
 
@@ -140,4 +208,26 @@
     line-height: 24px;
     font-family: rf_proximaNovaLight;
     color: #222222;
+}
+
+hr {
+    margin-top: 5%;
+}
+
+.KIT {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.keep_in_touch {
+    display: flex;
+    border: 2px solid red;
+    width: 30%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.item_kit {
+    width: 17%;
+    border: 2px solid red;
 }
