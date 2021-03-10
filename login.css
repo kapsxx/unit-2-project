@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+button {
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border: 0.5px solid gray;
+  background-color: rgb(224, 224, 224);
+  color: rgb(0, 0, 0);
+}
+button:hover {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  transition: all 0.4s ease 0s;
+}
+input:hover {
+  border: 0.5px solid gray;
+  transition: all 0.4s ease 0s;
+  background-color: rgb(216, 216, 216);
+}
+#logo {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+img {
+  width: 100%;
+}
+#form {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+input {
+  width: 70%;
+  height: 30px;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+button {
+  width: 72%;
+  height: 30px;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+#signup {
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+h4 {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
