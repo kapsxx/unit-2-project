@@ -28,3 +28,26 @@ function handledot(event){
         event.target.style.backgroundColor = "black";
     }
 }
+
+function handlehover(event){
+    // console.log("hello");
+    event.target.style.color = "blue";
+}
+
+function handleout(event){
+    // console.log("bye");
+    event.target.style.color = "black";
+}
+
+function handlecolor(event){
+    console.log("hello");
+    console.log(event.target);
+    event.target.style.filter = "brightness(1)";
+    event.target.style.filter = "invert(0)";
+}
+
+function handleinvert(event){
+    console.log("bye");
+    event.target.style.filter = "brightness(0)"
+    event.target.style.filter = "invert(0.7)"
+}
