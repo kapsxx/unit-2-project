@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="blog.css">
+    <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
 </head>
 <body>
     Blog Page
@@ -159,23 +160,23 @@
 
     <div class="BC_flex">
         <div class="item_bc">
-            <img src="https://www.rodanandfields.com/assets/blog/doctors-notes.svg" alt="1">
+            <img src="https://www.rodanandfields.com/assets/blog/doctors-notes.svg" alt="1" onmouseover="handlecolor(event)" onmouseout="handleinvert(event)">
             <h2>DOCTOR'S NOTES</h2>
         </div>
         <div class="item_bc">
-            <img src="https://www.rodanandfields.com/assets/blog/lifestyle.svg" alt="2">
+            <img src="https://www.rodanandfields.com/assets/blog/lifestyle.svg" alt="2" onmouseover="handlecolor(event)" onmouseout="handleinvert(event)">
             <h2>LIFESTYLE</h2>
         </div>
         <div class="item_bc">
-            <img src="https://www.rodanandfields.com/assets/blog/pro-tips.svg" alt="3">
+            <img src="https://www.rodanandfields.com/assets/blog/pro-tips.svg" alt="3" onmouseover="handlecolor(event)" onmouseout="handleinvert(event)">
             <h2>PRO TIPS</h2>
         </div>
         <div class="item_bc">
-            <img src="https://www.rodanandfields.com/assets/blog/science-of-skincare.svg" alt="4">
+            <img src="https://www.rodanandfields.com/assets/blog/science-of-skincare.svg" alt="4" onmouseover="handlecolor(event)" onmouseout="handleinvert(event)">
             <h2>SCIENCE OF SKINCARE</h2>
         </div>
         <div class="item_bc">
-            <img src="https://www.rodanandfields.com/assets/blog/skincare-guides.svg" alt="5">
+            <img src="https://www.rodanandfields.com/assets/blog/skincare-guides.svg" alt="5" onmouseover="handlecolor(event)" onmouseout="handleinvert(event)">
             <h2>SKINCARE GUIDES</h2>
         </div>
     </div>
@@ -231,14 +232,36 @@
     </div>
 
     <div class="keep_in_touch">
-        <div class="item_kit">1</div>
-        <div class="item_kit">2</div>
-        <div class="item_kit">3</div>
-        <div class="item_kit">4</div>
-        <div class="item_kit">5</div>
+        <div class="item_kit">
+            <a href="https://www.facebook.com/rodanandfields" target="_blank_">
+                <i class="fab fa-facebook" onmouseover="handlehover(event)" onmouseout="handleout(event)"></i>
+            </a>
+        </div>
+        <div class="item_kit">
+            <a href="https://twitter.com/RodanFieldsHQ" target="_blank_">
+                <i class="fab fa-twitter" onmouseover="handlehover(event)" onmouseout="handleout(event)"></i>
+            </a>
+        </div>
+        <div class="item_kit">
+            <a href="https://www.instagram.com/rodanandfields/" target="_blank_">
+                <i class="fab fa-instagram" onmouseover="handlehover(event)" onmouseout="handleout(event)"></i>
+            </a>
+        </div>
+        <div class="item_kit">
+            <a href="https://www.youtube.com/user/RodanFields" target="_blank_">
+                <i class="fab fa-youtube" onmouseover="handlehover(event)" onmouseout="handleout(event)"></i>
+            </a>
+        </div>
+        <div class="item_kit">
+            <a href="https://www.pinterest.com/RodanandFields/" target="_blank_">
+                <i class="fab fa-pinterest" onmouseover="handlehover(event)" onmouseout="handleout(event)"></i>
+            </a>
+        </div>
     </div>
 
-    <div>hello</div>
+    <div class="last">
+        2021 Rodan + Fields | About | Privacy Policy | Terms & Conditions | Disclaimer
+    </div>
 
     <script src="blog.js"></script>
 </body>
