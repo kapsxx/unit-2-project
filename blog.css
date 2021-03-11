@@ -3,10 +3,15 @@
     padding: 0px;
 }
 
+.nav-one img {
+    cursor: pointer;
+}
+
 .one, .two, .three {
     box-sizing: border-box;
     border: 2px solid red;
     display: flex;
+    /* flex-wrap: wrap; */
     height: 40vw;
     overflow: hidden;
     background-color:rgb(250,246,245);
@@ -135,6 +140,10 @@
     font-weight: 200;
 }
 
+.CWU {
+    margin-bottom: 2%;
+}
+
 .item img, .item_bc img {
     max-width: 100%;
 }
@@ -196,11 +205,26 @@
 
 .most_recent_articles > div {
     margin: 0% 1%;
+    overflow: hidden;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-width: 31.3%;
     height: 30vw;
     border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+    margin-bottom: 1%;
+}
+
+.connect_with_us > div {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+    min-width: 30%;
+    margin: 0% 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.connect_with_us {
+    justify-content: space-between;
 }
 
 .most_recent_articles > div > img {
@@ -281,4 +305,188 @@ hr {
 .BC_flex img {
     filter: brightness(0) invert(0.7);
     cursor: pointer;
+}
+
+.nav-one {
+    border: 2px solid red;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+}
+
+.nav-two {
+    display: flex;
+    /* flex-wrap: wrap; */
+    border: 2px solid red;
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.95);
+}
+
+.nav-two div {
+    border: 2px solid red;
+}
+
+.nav-two > div:nth-child(2) {
+    flex-basis: 35%;
+}
+
+.nav-two > div:nth-child(4) {
+    flex-basis: 13%;
+}
+
+.nav-two > div:nth-child(1), .nav-two > div:nth-child(3) {
+    flex-grow: 1;
+}
+
+.nav-two img {
+    max-width: 100%;
+}
+
+.nav-two button {
+    cursor: pointer;
+}
+
+/* search bar ------------------------------------------------------------*/
+
+#myfloat > div {
+    float: left;
+}
+
+#myfloat > div > input {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#myfloat > button {
+    float: right;
+}
+
+input {
+    border-radius: 8px;
+    padding-left: 2%;
+}
+
+.nav-three {
+    display: none;
+}
+
+/* media queries ---------------------------------------------------------*/
+
+@media only screen and (max-width: 1500px) {
+    .nav-two {
+        display: none;
+    }
+
+    .nav-three {
+        display: block;
+        border: 2px solid red;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .nav-three input {
+        width: 90%;
+    }
+
+    .nav-three button {
+        background-color: white;
+        border: 0px solid white;
+    }
+
+    .nav-three i {
+        font-size: 17px !important;
+    }
+
+    .one p, .one a, .two p, .two a, .three p, .three a {
+        font-size: 15px !important;
+        line-height: normal !important;
+        width: 70% !important;
+    }
+
+    .one h1, .two h1, .three h1 {
+        font-weight: bolder !important;
+        font-size: 18px !important;
+        line-height: normal !important;
+        width: 70% !important;
+    }
+
+    .fab {
+        font-size: 15px !important;
+    }
+
+    .last {
+        font-size: 12px !important;
+    }
+
+    .MYM_flex, .BC_flex, .connect_with_us {
+        margin: auto;
+        display: flex;
+        overflow-x: auto;
+        border: 2px solid red;
+        box-sizing: border-box;
+        /* max-height: 66vw; */
+        width: 70%;
+    }
+    
+    .MYM_flex::-webkit-scrollbar, .BC_flex::-webkit-scrollbar, .connect_with_us::-webkit-scrollbar {
+        width: 0;
+    }
+    
+    .MYM_flex > div, .BC_flex > div, .connect_with_us > div {
+        margin: 0% 1%;
+        overflow: hidden;
+        box-sizing: border-box;
+        /* border: 2px solid red; */
+        min-width: 31.3%;
+        height: 30vw;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+        margin-bottom: 1%;
+    }
+
+    .connect_with_us img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .MYM_flex h2, .BC_flex h2 {
+        font-size: 12px !important;
+    }
+
+    .most_recent_articles a {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .one p, .one a, .two p, .two a, .three p, .three a {
+        font-size: 10px !important;
+        line-height: normal !important;
+        width: 70% !important;
+    }
+
+    .one h1, .two h1, .three h1 {
+        font-weight: bolder !important;
+        font-size: 15px !important;
+        line-height: normal !important;
+        width: 70% !important;
+    }
+
+    .MYM_flex h2, .BC_flex h2 {
+        font-size: 10px !important;
+    }
+
+    .most_recent_articles p {
+        font-size: 12px !important;
+    }
+
+    .last {
+        font-size: 8px !important;
+    }
 }
