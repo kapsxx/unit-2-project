@@ -1,3 +1,4 @@
+
 var prev = document.getElementById("prev")
 prev.addEventListener("click",scroll_left)
 
@@ -31,4 +32,34 @@ function scroll_right(event) {
 
   
   
+
+
+function display(){
+    var flag_menu = document.getElementsByClassName('flag-menu');
+    var ul = document.querySelector('ul');
+    if ( ul.style.display == 'none'){
+    ul.style.display = 'block';
+    }
+    else {
+        ul.style.display = 'none';
+    }
+   
+}
+
+
+function showresult(){
+    
+    var search_data = document.getElementById('item-search').value;
+    console.log(search_data)
+    let src = 'https://www.rodanandfields.com/search?';
+    var params = `q=${search_data}`;
+    var urlsearchparams = new URLSearchParams(`${src}${params}`);
+    console.log(urlsearchparams);
+    var getdata = urlsearchparams.get('q');
+    
+    location.assign(`${src}${params}`);
+}
+
+
+
 
