@@ -58,6 +58,7 @@ function showresult(){
     var getdata = urlsearchparams.get('q');
     
     location.assign(`${src}${params}`);
+    window.onload = search_data.value = "";
 }
 
 
