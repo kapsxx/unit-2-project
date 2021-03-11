@@ -290,7 +290,7 @@ body {
   z-index: 2;
   width: 60%;
   border: 1px solid rgb(156, 156, 156);
-  transform: translate(280px, -70px);
+  transform: translate(290px, -70px);
   height: 200px;
   background-color: white;
   text-align: center;
@@ -557,6 +557,7 @@ body {
   width: 70%;
   margin-left: 15%;
   margin-top: 110px;
+  height: 470px;
 }
 
 #cont7 {
@@ -577,6 +578,40 @@ body {
 #cont7_img3 {
   width: 355px;
   grid-area: c1;
+}
+
+#slider2 {
+  width: 70%;
+  margin-left: 8%;
+  margin-top: 65px;
+  display: flex;
+  margin-bottom: 200px;
+}
+#cont8 > div > img {
+  width: 240px;
+  margin-left: 15px;
+}
+
+#prev1,
+#next1 {
+  width: 30px;
+  height: 240px;
+  background-color: red;
+  z-index: 0;
+  position: relative;
+}
+#prev1 > a,
+#next1 > a {
+  font-size: 40px;
+  margin-left: 5px;
+  z-index: 2;
+  transform: translate(0px, 100px);
+  position: absolute;
+}
+#cont8 {
+  width: 98%;
+  display: flex;
+  overflow: hidden;
 }
 
 /* footer css starts */
