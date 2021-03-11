@@ -221,22 +221,16 @@ header a {
   transition: 0.5s;
 }
 
-<<<<<<< HEAD
 
-#head2{
-    text-align: center;
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    user-select: none;
-=======
+
+
 #head2 {
   text-align: center;
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
   user-select: none;
->>>>>>> 9a75e059fd19518f1c787b0db0b366c3f4122255
+
 }
 .menu-one {
   justify-content: space-around;
@@ -425,18 +419,13 @@ body {
   overflow: hidden;
   z-index: 0;
 }
-<<<<<<< HEAD
+
 #fade>div>a>img{
     width: 250px;
     height: 250px;
     margin-left: 20px;
-=======
-#fade > div > a > img {
-  width: 200px;
-  height: 250px;
-  margin-left: 20px;
->>>>>>> 9a75e059fd19518f1c787b0db0b366c3f4122255
 }
+
 #fade > :nth-child(4) {
   margin-right: 40px;
 }
@@ -450,7 +439,7 @@ body {
   color: grey;
   z-index: 2;
 }
-<<<<<<< HEAD
+
 #next{
     transform: translate(1150px,-300px);
 }
@@ -459,23 +448,15 @@ body {
     cursor: pointer;
     user-select: none;
  }
-=======
-#next {
-  transform: translate(980px, -300px);
-}
-.click1 {
-  margin-left: 60px;
-  cursor: pointer;
-  user-select: none;
-}
->>>>>>> 9a75e059fd19518f1c787b0db0b366c3f4122255
+
+
 
 .ptag1 {
   text-align: center;
   user-select: none;
 }
 
-<<<<<<< HEAD
+
 #cont4{
     width: 72%;
     margin: auto;
@@ -504,20 +485,8 @@ body {
     height: 45px;
     text-align: center;
     margin-top: 25px;
-=======
-#cont4 {
-  width: 85%;
-  margin: auto;
-  background-color: rgb(186, 205, 240);
-  margin-bottom: 70px;
-  height: 100px;
-  display: flex;
 }
-#learn_more_cont1 {
-  width: 60%;
-  margin-left: 80px;
->>>>>>> 9a75e059fd19518f1c787b0db0b366c3f4122255
-}
+
 #learn_more_cont1 > :nth-child(1) {
   font-size: 31px;
   margin-bottom: 0px;
@@ -597,7 +566,7 @@ body {
     margin-top: 110px;
 }
 
-<<<<<<< HEAD
+
 #cont7{
     display: grid;
     max-width: 70%;
@@ -620,7 +589,7 @@ body {
 
 
 
-=======
+
 /* footer css starts */
 
 #footer-cont {
@@ -715,4 +684,4 @@ body {
   margin-left: 10px;
   font-size: 11.5px;
 }
->>>>>>> 9a75e059fd19518f1c787b0db0b366c3f4122255
+
