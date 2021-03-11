@@ -162,7 +162,7 @@ header {
   position: relative;
   font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
   font-size: 12px;
-  margin-bottom: -65px;
+  margin-bottom: -55px;
 }
 #navbar {
   position: relative;
@@ -262,6 +262,7 @@ header a {
 }
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 .page {
   width: 100vw;
@@ -580,9 +581,12 @@ body {
 }
 #policy > p > span {
   color: rgb(35, 130, 167);
+  cursor: pointer;
 }
 #footer-cont2 {
   width: 98%;
+  margin-left: -10px;
+  margin-bottom: 30px;
 }
 #footer-cont2 > ul li {
   list-style: none;
@@ -590,7 +594,7 @@ body {
   font-size: 11.5px;
   color: #3f3f3f;
   float: left;
-  padding: 10px 5px;
+  padding: 5px 5px;
   letter-spacing: 0.3px;
   height: 10px;
   line-height: 10px;
