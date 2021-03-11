@@ -41,8 +41,8 @@
            </div>
            
            <div id="sign-in">
-               <a href="signup.html">
-                   <div>Sign in
+               <a href="login.html">
+                   <div>Login
                        <span>
                            <img src="/images/user.png" alt="user">
                        </span>
@@ -59,13 +59,13 @@
               <div class="selected-flag" id="aa" value="aclick"></div>
               <ul class="flag-ul">
                 <li class="flag-li" >
-                    <a id="a1" class="flag-a" href="index.html" value="a1click" onclick="flag_click()"></a>
+                    <a id="a1" class="flag-a" href="index.html" value="a1click"></a>
                 </li>
                 <li class="flag-li">
-                   <a id="a2" class="flag-a" href="index.html"  value="a2click" onclick="flag_click()"></a>
+                   <a id="a2" class="flag-a" href="index.html"  value="a2click"></a>
                </li>
                <li class="flag-li">
-                   <a id="a3" class="flag-a" href="index.html" value="a3click" onclick="flag_click()" ></a>
+                   <a id="a3" class="flag-a" href="index.html" value="a3click" ></a>
                </li>
             </ul>
            </div>
@@ -204,14 +204,14 @@
             </div>
         </div>
         <div id="cont2">
-           <a href="https://www.rodanandfields.com/shop/redefine-multi-function-eye-cream/p/AAEY015"><img src="https://www.rodanandfields.com/medias/20-GR-MFEC-retina-widescreen-US.jpg?context=bWFzdGVyfHJvb3R8MjI4OTgwfGltYWdlL2pwZWd8aGUxL2g2NS8xMjIwMTgwNDMwMDMxOC5qcGd8NTlkMTZjMmRiYWQ0YWM2YzU3ZDg3YzE3ZGM1M2IxMGRmYjJjZWJmYjU0Y2UxZGY2NjFiODE1MzIyYjg1MmQwYw"/></a> 
+           <a href="#"><img src="https://www.rodanandfields.com/medias/20-GR-MFEC-retina-widescreen-US.jpg?context=bWFzdGVyfHJvb3R8MjI4OTgwfGltYWdlL2pwZWd8aGUxL2g2NS8xMjIwMTgwNDMwMDMxOC5qcGd8NTlkMTZjMmRiYWQ0YWM2YzU3ZDg3YzE3ZGM1M2IxMGRmYjJjZWJmYjU0Y2UxZGY2NjFiODE1MzIyYjg1MmQwYw"/></a> 
             <div id="cont3">
                 <p>Visibly Improve Every Eye<br> Contour</p>
                 <p>New! Now reduces the appearance of lines, <br>wrinkles + sagginess on entire eye area.</p>
                 <p><ins >SHOP NOW</ins></p>
             </div>
         </div>
-        <h2 id="head2">BEST SELLERS</h2>
+        <h2 id="head2" style="font-weight: 400;">BEST SELLERS</h2>
         <div class="slide_show">
             <a id="prev" >&#10094;</a>
             <div id="fade">
@@ -248,10 +248,9 @@
                     <div><ins class="click1">SHOP NOW</ins></div>
                 </div>
             </div>            
-            <a id="next" >&#10095;</a>
-            <script src="./index.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        </div>
+            <a id="next" >&#10095;</a> 
+
+    </div>
         <div id="cont4">
             <div id="learn_more_cont1">
                <p>JOIN PC PERKS + SAVE</p>
@@ -279,7 +278,70 @@
 
     </div>             
     </div>
+
+
+    <div id="footer-cont">
+        <div id="about-cont">
+            <ul>
+                <li><h4>ABOUT R+F</h4></li>
+                <li>PRESS ROOM</li>
+                <li>COMPANY INFO</li>
+                <li>EXECUTIVE TEAM</li>
+                <li>CAREERS</li>  
+                <li>R+F RECYCLING PROGRAM</li>
+                <li>BLOG</li>
+            </ul>
+        </div>
+        <div id="help-cont">
+            <ul>
+                <li><h4>HELP</h4></li>
+                <li>PRODUCT & HELP CENTER</li>
+                <li>SHIPPING</li>
+                <li>SATISFACTION GUARANTEE</li>
+                <li>PROMOTIONAL TERMS & CONDITIONS</li>  
+                <li>R+F FAQS</li>
+                <li>SITE MAP</li>
+            </ul>
+        </div>
+        <div id="signin-cont">
+            <div id="signin-cont2">
+                <div id="touch">
+                    <p>LET'S KEEP IN TOUCH!</p>
+                </div>
+                <div id="signin-form">
+                    <form>
+                        <input type="email" id="signin-email" placeholder="Enter Your Email">
+                    </form>
+                    <button onclick="show_msg()">SIGN UP</button>
+                </div>
+                <div id="policy">
+                    <p>By providing my email, I accept <span>Rodan & Fields Privacy Policy</span></p>
+                </div>
+                <div id="social-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-cont2">
+        <ul>
+            <li>© 2021 Rodan & Fields<span>|</span></li>
+            <li>Privacy Policy<span>|</span></li>
+            <li>Terms & Conditions<span>|</span></li>
+            <li>Accessibility<span>|</span></li>
+            <li>California Supply Chains Act<span>|</span></li>
+            <li>DSA Code of Ethics<span>|</span></li> 
+            <li>Disclaimer<span>|</span></li>
+            <li>Preference Center</li>
+        </ul>
+    </div>
   <script src="index.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
 </body>
