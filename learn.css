@@ -1,3 +1,266 @@
+/*nav bar*/
+
+#find-text,
+#logo,
+#search-bar,
+#sign-in,
+#bag,
+#flag-list {
+  float: left;
+  padding: 12px 0px;
+}
+#find-text {
+  padding-left: 20px;
+  font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
+  font-size: 13px;
+}
+#logo {
+  padding-left: 440px;
+}
+#search-bar {
+  padding-left: 190px;
+}
+#item-search:hover {
+  border: 1px solid black;
+}
+#search-btn:hover {
+  background: black;
+}
+#search-btn {
+  color: white;
+  border-radius: 0px 14px 14px 0px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin-left: -5px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+#search-btn > img {
+  width: 20px;
+  margin-top: -8px;
+}
+#item-search {
+  border-radius: 14px 0px 0px 14px;
+  background: #f8f8f8;
+  height: 28px;
+  width: 187px;
+  border: none;
+  padding-left: 10px;
+}
+#item-search:focus,
+#search-btn:focus {
+  outline: none;
+}
+
+#main-nav {
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #222;
+  height: 50px;
+  color: #3f3f3f;
+  width: 98%;
+}
+#sign-in > a > div > span > img {
+  width: 15px;
+}
+#sign-in > a {
+  text-decoration: none;
+  color: black;
+}
+#sign-in {
+  padding-left: 30px;
+  margin-top: 5px;
+}
+#bag > img {
+  width: 20px;
+  padding-left: 20px;
+}
+
+.flag-menu {
+  float: left;
+  padding-left: 20px;
+}
+#flag-menu > ul {
+  padding: 0px;
+  margin-top: 0px;
+  background-color: white;
+  border: 1px solid #f8f8f8;
+}
+.selected-flag {
+  cursor: pointer;
+  margin-top: 10px;
+  content: "";
+  display: block;
+  width: 35px;
+  height: 25px;
+  background-image: url("https://www.rodanandfields.com/_ui/dest/images/flagUSA.png");
+}
+.selected-flag::after {
+  content: "⯆";
+  margin-left: 40px;
+}
+#a1 {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 25px;
+  background-image: url("https://www.rodanandfields.com/_ui/dest/images/flagAus.png");
+  background-repeat: no-repeat;
+  margin-left: -20px;
+  display: inline-block;
+}
+#a2 {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 25px;
+  background-image: url("https://www.rodanandfields.com/_ui/dest/images/flagCan.png");
+  background-repeat: no-repeat;
+  margin-left: -20px;
+  display: inline-block;
+}
+#a3 {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 25px;
+  background-image: url("https://www.rodanandfields.com/_ui/dest/images/flagJap.png");
+  background-repeat: no-repeat;
+  margin-left: -20px;
+  display: inline-block;
+}
+#a1:hover,
+#a2:hover,
+#a3:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+.flag-ul {
+  list-style: none;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  width: 50px;
+  display: none;
+}
+.flag-li {
+  border: 1px solid #f2f2ff;
+  display: flex;
+  justify-content: space-between;
+}
+.flag-a {
+  width: 60px;
+  display: block;
+  padding: 5px 5px;
+}
+
+/* nav menu  */
+
+header {
+  width: 100%;
+  min-height: 100px;
+
+  position: relative;
+  font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
+  font-size: 12px;
+  margin-bottom: -55px;
+}
+#navbar {
+  position: relative;
+}
+
+#navbar > li {
+  list-style: none;
+  display: inline-block;
+  line-height: 30px;
+}
+#navbar > li:hover {
+  border-bottom: 3px solid #2f82ab;
+  transition: 0.5s;
+}
+
+header a {
+  text-decoration: none;
+  padding: 10px 55px;
+  color: black;
+}
+.menu-one,
+.menu-two,
+.menu-three,
+.menu-four,
+.menu-five,
+.menu-six {
+  position: absolute;
+  width: 100%;
+  left: -100%;
+  background: rgb(255, 255, 255, 0.9);
+
+  display: flex;
+  box-shadow: 0 0 3px rgb(216, 213, 213);
+  padding-top: 10px;
+
+  transition: 0.5s;
+}
+.drop-one:hover > .menu-one,
+.drop-two:hover > .menu-two,
+.drop-three:hover > .menu-three,
+.drop-four:hover > .menu-four,
+.drop-five:hover > .menu-five,
+.drop-six:hover > .menu-six {
+  left: 0;
+
+  z-index: 100;
+  margin-top: 15px;
+}
+.menu-one > ul li:hover,
+.menu-two > ul li:hover,
+.menu-three > ul li:hover,
+.menu-four > ul li:hover,
+.menu-five > ul li:hover,
+.menu-six > ul li:hover {
+  border-bottom: 3px solid #2f82ab;
+  transition: 0.5s;
+}
+
+#head2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  user-select: none;
+}
+.menu-one {
+  justify-content: space-around;
+}
+.menu-two > ul li {
+  margin-left: 230px;
+}
+.menu-three > ul li {
+  margin-left: 410px;
+}
+.menu-four > ul li {
+  margin-left: 640px;
+}
+.menu-five > ul li {
+  margin-left: 820px;
+  line-height: 0px;
+}
+.menu-six > ul li {
+  margin-left: 1040px;
+}
+.menu-five > ul li:hover {
+  padding-bottom: 10px;
+}
+.menu-one ul,
+.menu-two ul,
+.menu-three ul,
+.menu-four ul,
+.menu-five ul,
+.menu-six ul {
+  list-style: none;
+  padding: 10px;
+  color: #1d1d1d;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -130,6 +393,14 @@ hr {
   overflow: hidden;
   visibility: hidden;
 }
+@media (max-width: 1450px) {
+  #main-nav {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+}
 @media (max-width: 850px) {
   .offersCont {
     display: inline-block;
@@ -175,4 +446,99 @@ hr {
   #description {
     height: 100px;
   }
+}
+
+/* footer css starts */
+
+#footer-cont {
+  width: 100%;
+
+  font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
+  font-size: 12px;
+  color: rgb(79, 78, 78);
+  border-top: 1px solid rgb(194, 192, 192);
+  border-bottom: 1px solid rgb(194, 192, 192);
+  padding-bottom: 300px;
+}
+
+#about-cont {
+  width: 20%;
+  height: 250px;
+  float: left;
+}
+#help-cont {
+  width: 20%;
+  height: 250px;
+  float: left;
+}
+#signin-cont {
+  width: 59.5%;
+  height: 250px;
+  float: right;
+  clear: right;
+}
+#about-cont > ul li,
+#help-cont > ul li {
+  list-style: none;
+  line-height: 35px;
+  font-weight: 300;
+  cursor: pointer;
+}
+#about-cont > ul li:nth-child(1),
+#help-cont > ul li:nth-child(1) {
+  line-height: 15px;
+  cursor: text;
+}
+#signin-cont2 {
+  margin-left: 150px;
+}
+#touch > p {
+  font-size: 15px;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+#signin-email {
+  border-bottom: 1px solid #222;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 50%;
+  caret-color: rgb(35, 130, 167);
+}
+#signin-email[placeholder] {
+  font-size: 16px;
+  font-weight: 100;
+}
+#signupBtn {
+  width: 50.5%;
+  height: 50px;
+  margin-top: 35px;
+  background: #222;
+  color: white;
+  border: none;
+}
+#policy > p > span {
+  color: rgb(35, 130, 167);
+  cursor: pointer;
+}
+#footer-cont2 {
+  width: 98%;
+  margin-left: -10px;
+  margin-bottom: 30px;
+}
+#footer-cont2 > ul li {
+  list-style: none;
+  font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
+  font-size: 11.5px;
+  color: #3f3f3f;
+  float: left;
+  padding: 5px 5px;
+  letter-spacing: 0.3px;
+  height: 10px;
+  line-height: 10px;
+}
+#footer-cont2 > ul li > span {
+  margin-left: 10px;
+  font-size: 11.5px;
 }
