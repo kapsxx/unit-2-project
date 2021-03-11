@@ -513,7 +513,7 @@ body {
 
 #footer-cont {
   width: 100%;
-
+  padding-top: 30px;
   font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
   font-size: 12px;
   color: rgb(79, 78, 78);
@@ -564,15 +564,16 @@ body {
   border-left: none;
   border-right: none;
   outline: none;
-  width: 50%;
+  width: 45%;
   caret-color: rgb(35, 130, 167);
 }
 #signin-email[placeholder] {
   font-size: 16px;
   font-weight: 100;
 }
+
 #signin-form > button {
-  width: 50.5%;
+  width: 45.5%;
   height: 50px;
   margin-top: 35px;
   background: #222;
@@ -586,7 +587,7 @@ body {
 #footer-cont2 {
   width: 98%;
   margin-left: -10px;
-  margin-bottom: 30px;
+  padding-bottom: 55px;
 }
 #footer-cont2 > ul li {
   list-style: none;
@@ -602,4 +603,17 @@ body {
 #footer-cont2 > ul li > span {
   margin-left: 10px;
   font-size: 11.5px;
+}
+#facebook,
+#twitter,
+#youtube,
+#pinterest,
+#insta {
+  float: left;
+}
+
+.fab {
+  color: #1d1d1d;
+  font-size: 25px;
+  padding: 10px 25px;
 }
