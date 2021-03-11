@@ -11,7 +11,7 @@ function login(e) {
   } else {
     if (usernameFromStorage == data.username && passwordFromStorage == data.password) {
       alert("Login Successfull");
-      window.location.href = "landingpage.html";
+      window.location.href = "index.html";
     } else {
       alert("Invalid Username or Password");
     }
