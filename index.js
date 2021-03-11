@@ -4,9 +4,9 @@ prev.addEventListener("click",scroll_left)
 
 function scroll_left(event) {
    var content = document.getElementById("fade")
-   content.scrollLeft += 400;
+   content.scrollLeft += 540;
    event.preventDefault();
-  if(content.scrollLeft==400){
+  if(content.scrollLeft==540){
     prev.style.color = "silver"
   }
   else{
@@ -19,10 +19,10 @@ next.addEventListener("click",scroll_right)
 
 function scroll_right(event) {
     var content = document.getElementById("fade")
-    content.scrollLeft -= 400;
+    content.scrollLeft -= 540;
     event.preventDefault();
 
-    if(content.scrollLeft<=400){
+    if(content.scrollLeft<=540){
         prev.style.color = "silver"
       }
       else{
