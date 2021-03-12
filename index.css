@@ -10,7 +10,7 @@
   padding: 12px 0px;
 }
 #find-text {
-  padding-left: 20px;
+  padding-left: 50px;
   font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
   font-size: 13px;
 }
@@ -60,6 +60,9 @@
   height: 50px;
   color: #3f3f3f;
   width: 98%;
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 #sign-in > a > div > span > img {
   width: 15px;
@@ -163,6 +166,8 @@ header {
   font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
   font-size: 12px;
   margin-bottom: -55px;
+  /* position: sticky;
+  top: 100px; */
 }
 #navbar {
   position: relative;
@@ -268,7 +273,7 @@ body {
   width: 100vw;
   margin-left: 0px;
   padding-left: 0px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .both_cont {
@@ -280,13 +285,11 @@ body {
 .video_cont {
   position: relative;
   width: 99%;
-  
 }
 
 .video1 {
   width: 100%;
   height: 500px;
-  
 }
 .shop_cont {
   z-index: 2;
@@ -619,6 +622,7 @@ body {
   overflow: hidden;
   margin-right: 2px;
 }
+
 #prev1 > a{
   visibility: hidden;
 }
@@ -688,6 +692,12 @@ body {
 
 
 
+
+#prev1 > a {
+  visibility: hidden;
+}
+
+
 /* footer css starts */
 
 #footer-cont {
@@ -698,7 +708,8 @@ body {
   color: rgb(79, 78, 78);
   border-top: 1px solid rgb(194, 192, 192);
   border-bottom: 1px solid rgb(194, 192, 192);
-  padding-bottom: 300px;
+  padding-bottom: 270px;
+  margin-left: 5px;
 }
 
 #about-cont {
@@ -713,7 +724,7 @@ body {
 }
 #signin-cont {
   width: 59.5%;
-  height: 250px;
+
   float: right;
   clear: right;
 }
@@ -758,6 +769,10 @@ body {
   background: #222;
   color: white;
   border: none;
+  border-radius: none;
+}
+#signin-form {
+  height: 120px;
 }
 #policy > p > span {
   color: rgb(35, 130, 167);
@@ -794,6 +809,30 @@ body {
 
 .fab {
   color: #1d1d1d;
-  font-size: 25px;
-  padding: 10px 25px;
+  font-size: 20px;
+  padding: 10px 38px;
+  margin-left: -25px;
+}
+
+#slide-up > button {
+  border-radius: 2.5rem;
+  background: #00b8e5;
+  opacity: 0.8;
+  width: 3rem;
+  height: 3rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
+  transition: all 0.3s ease;
+  margin-left: 300px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  margin-top: -30px;
+}
+#p1 {
+  font-size: 16px;
+  line-height: 23px;
 }

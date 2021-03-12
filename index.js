@@ -65,6 +65,95 @@ var prev1 = document.getElementById("prev1")
 prev1.addEventListener("click",scroll_left1)
 var count =0;
 
+
+var scrollbtn = document.getElementById('topscroll');
+    var scrolltop = document.documentElement.clientHeight
+function slideup() {
+    
+    window.scrollTo({
+        top:0,
+        left: 0,
+        behavior:"smooth"
+    });
+
+   
+  }
+
+scrollbtn.addEventListener('click',slideup);
+
+
+//for footer signup
+var arr = [];
+var flag =1;
+ function show_msg(){
+      
+     
+var signin_email = document.getElementById('signin-email').value;
+
+console.log(signin_email)
+localStorage.setItem("signin_email",signin_email);
+localStorage.getItem('signin_email');
+console.log(signin_email);
+ if ( signin_email.length == 0 || signin_email.indexOf('@') == -1 || signin_email.indexOf('.com') == -1){
+     alert('Invalid Email Address');
+     flag =0;
+ }
+ 
+   
+for ( var i = 0 ; i < signin_email.length; i++){
+    if ( signin_email[i] == '@' || signin_email[i] == '.' || signin_email[i] == 'c' || signin_email[i] == 'o' || signin_email[i] == 'm'){
+       arr.push(i)
+    }
+}
+for ( var i  =1; i < arr.length-1; i++){
+    var num = arr[0];
+    if ( arr[i+1] > arr[i-1]){
+       var t = true;
+    } else {
+     // alert('give the email in correct order i.e., alphabets-or-number@domainname.com');
+    }
+}
+for ( var j = 0; j < signin_email.length; j++){
+    if ( signin_email[j] == '@'){
+        lenbefore = j;
+        if ( lenbefore > 0){
+            t =true;
+        }else{
+           // alert('give sometihng before @');
+        }
+    if ( signin_email[j] == '.'){
+        lenbefore1 = j;
+        if ( lenbefore1> lenbefore){
+            t =  true;
+        }else {
+           // alert('give domain name before .');
+        }
+    }    
+    } 
+   
+} if ( t= true){
+    var signin_form = document.getElementById('signin-form');
+    var policy = document.getElementById('policy');
+    var s_form = document.getElementById('sform');
+    var s_btn = document.getElementById('sbtn');
+    var signin_mail = document.getElementById('signin-email');
+
+   
+     var p1 = document.createElement('p');
+     if ( flag == 1){
+        policy.style.display = "none";
+        s_form.style.display = "none";
+        s_btn.style.display = "none";
+        signin_mail.style.display = "none";    
+     p1.innerText = `You're on the list
+                          Check your inbox for the latest on R+F products,
+                          news, and special offers.`
+    signin_form.appendChild(p1);
+    p1.setAttribute('id', 'p1');
+     }
+}
+ }
+
 function scroll_left1(event) {
     var content = document.getElementById("cont8")
     var arrow2 = document.getElementById("arrow2")
@@ -91,6 +180,9 @@ function scroll_left1(event) {
 var next1 = document.getElementById("next1")
 next1.addEventListener("click",scroll_right1)
 
+
+ 
+
 function scroll_right1(event) {
     var content = document.getElementById("cont8")
     content.scrollLeft += 1040;
@@ -112,6 +204,7 @@ function scroll_right1(event) {
    // console.log(count);
     
    }
+
 
    ////////////////////////////////
 //    var white1= document.getElementById("white");
@@ -156,3 +249,5 @@ function scroll_right1(event) {
 ////////////////////////////////////////
 var white11 = document.getElementsByClassName("white1")
 //console.log(white11)
+
+
