@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: HCoGothamSSmSemiBold, Arial, Sans-Serif;
 }
 
 .nav-one img {
@@ -9,7 +10,7 @@
 
 .one, .two, .three {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     /* flex-wrap: wrap; */
     height: 40vw;
@@ -32,7 +33,7 @@
 
 .one > div, .two > div, .three > div {
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
 }
 
@@ -49,14 +50,14 @@
 }
 
 .one > div > p, .two > div > p, .three > div > p {
-    font-family: rf_proximaNovaLight;
+    /* font-family: rf_proximaNovaLight; */
     font-size: 16px;
     letter-spacing: .5px;
     line-height: 24px;
 }
 
 .one > div > h1, .two > div > h1, .three > div > h1 {
-    font-family: RFdisplayRegular;
+    /* font-family: RFdisplayRegular; */
     font-size: 40px;
     letter-spacing: 1px;
     line-height: 48px;
@@ -65,7 +66,7 @@
 
 .one > div > a, .two > div > a, .three > div > a {
     color: #222222;
-    font-family: "rf_proximaNovaMedium",Helvetica,Arial,sans-serif;
+    /* font-family: "rf_proximaNovaMedium",Helvetica,Arial,sans-serif; */
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: underline;
@@ -78,22 +79,22 @@
 
 .one > div:nth-child(1) > p, .one > div:nth-child(1) > h1, .one > div:nth-child(1) > a {
     width: 45%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .two > div:nth-child(2) > p, .two > div:nth-child(2) > h1, .two > div:nth-child(2) > a {
     width: 45%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .MYM, .BC {
     margin-top: 4%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 2%;
 }
 
 .MYM > h2 {
-    font-family: RFdisplayRegular;
+    /* font-family: RFdisplayRegular; */
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 48px;
@@ -102,7 +103,7 @@
 }
 
 .MYM > p {
-    font-family: rf_proximaNovaLight;
+    /* font-family: rf_proximaNovaLight; */
     font-size: 16px;
     letter-spacing: .5px;
     line-height: 24px;
@@ -111,7 +112,7 @@
 
 .MYM_flex, .BC_flex {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 90%;
     justify-content: space-between;
@@ -120,20 +121,20 @@
 }
 
 .item {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 18%;
     box-sizing: border-box;
 }
 
 .item_bc {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 10%;
     box-sizing: border-box;
 }
 
 .BC h2, .CWU h2 {
     text-align: center;
-    font-family: RFdisplayRegular;
+    /* font-family: RFdisplayRegular; */
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 48px;
@@ -149,9 +150,9 @@
 }
 
 .item h2, .item p, .item_bc h2, .CWU p, .KIT h2 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-weight: 200;
-    font-family: rf_proximaNovaRegular;
+    /* font-family: rf_proximaNovaRegular; */
     font-size: 16px;
     letter-spacing: .5px;
     line-height: 24px;
@@ -160,11 +161,11 @@
 
 .three > div:nth-child(1) > p, .three > div:nth-child(1) > h1, .three > div:nth-child(1) > a {
     width: 45%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .click {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 }
 
@@ -175,14 +176,15 @@
     border: 1px solid black;
     border-radius: 50%;
     display: inline-block;
+    margin-top: 0.5%;
 }
 
 .MRA {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     text-align: center;
     padding: 1% 0%;
-    font-family: RFdisplayRegular;
+    /* font-family: RFdisplayRegular; */
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 48px;
@@ -193,7 +195,7 @@
     margin: auto;
     display: flex;
     overflow-x: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     /* max-height: 66vw; */
     width: 70%;
@@ -233,7 +235,7 @@
 }
 
 .most_recent_articles > div > p, .most_recent_articles > div > a {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     text-align: center;
     margin: auto;
@@ -252,7 +254,7 @@
     font-size: 14px;
     letter-spacing: .5px;
     line-height: 24px;
-    font-family: rf_proximaNovaLight;
+    /* font-family: rf_proximaNovaLight; */
     color: #222222;
 }
 
@@ -267,7 +269,7 @@ hr {
 
 .keep_in_touch {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 30%;
     margin: auto;
     justify-content: space-between;
@@ -279,12 +281,12 @@ hr {
 
 .keep_in_touch a {
     text-decoration: none;
-    color: black;
+    color: #222222;
 }
 
 .item_kit {
     width: 17%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .fab {
@@ -295,7 +297,7 @@ hr {
 .last {
     margin-top: 2%;
     text-align: center;
-    font-family: rf_proximaNovaLight;
+    /* font-family: rf_proximaNovaLight; */
     font-size: 12px;
     letter-spacing: .5px;
     line-height: 18px;
@@ -308,7 +310,7 @@ hr {
 }
 
 .nav-one {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -318,17 +320,13 @@ hr {
 .nav-two {
     display: flex;
     /* flex-wrap: wrap; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     padding-top: 2%;
     padding-bottom: 2%;
     position: sticky;
     top: 0;
     background-color: rgb(255, 255, 255, 0.95);
-}
-
-.nav-two div {
-    border: 2px solid red;
 }
 
 .nav-two > div:nth-child(2) {
@@ -384,7 +382,7 @@ input {
 
     .nav-three {
         display: block;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 1%;
         margin-bottom: 1%;
     }
@@ -427,7 +425,7 @@ input {
         margin: auto;
         display: flex;
         overflow-x: auto;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         box-sizing: border-box;
         /* max-height: 66vw; */
         width: 70%;
@@ -466,14 +464,14 @@ input {
 
 @media only screen and (max-width: 750px) {
     .one p, .one a, .two p, .two a, .three p, .three a {
-        font-size: 10px !important;
+        font-size: 9px !important;
         line-height: normal !important;
         width: 70% !important;
     }
 
     .one h1, .two h1, .three h1 {
         font-weight: bolder !important;
-        font-size: 15px !important;
+        font-size: 13px !important;
         line-height: normal !important;
         width: 70% !important;
     }
