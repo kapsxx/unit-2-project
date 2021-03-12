@@ -60,6 +60,9 @@
   height: 50px;
   color: #3f3f3f;
   width: 98%;
+  position: sticky;
+  z-index: 20;
+  top: 0;
 }
 #sign-in > a > div > span > img {
   width: 15px;

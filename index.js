@@ -89,10 +89,10 @@ var arr = [];
      
 var signin_email = document.getElementById('signin-email').value;
 
-//console.log(signin_email)
+console.log(signin_email)
 localStorage.setItem("signin_email",signin_email);
 localStorage.getItem('signin_email');
-//console.log(signin_email);
+console.log(signin_email);
    
 for ( var i = 0 ; i < signin_email.length; i++){
     if ( signin_email[i] == '@' || signin_email[i] == '.' || signin_email[i] == 'c' || signin_email[i] == 'o' || signin_email[i] == 'm'){
@@ -138,13 +138,13 @@ for ( var j = 0; j < signin_email.length; j++){
     signin_mail.style.display = "none";
      var p1 = document.createElement('p');
      p1.innerText = `You're on the list
-                          Check youe inbox for the latest on R+F products,
+                          Check your inbox for the latest on R+F products,
                           news, and special offers.`
     signin_form.appendChild(p1);
     p1.setAttribute('id', 'p1');
 
 }
-
+ }
 
 function scroll_left1(event) {
     var content = document.getElementById("cont8")
@@ -173,7 +173,7 @@ var next1 = document.getElementById("next1")
 next1.addEventListener("click",scroll_right1)
 
 
- }
+ 
 
 function scroll_right1(event) {
     var content = document.getElementById("cont8")
