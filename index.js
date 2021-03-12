@@ -205,3 +205,49 @@ function scroll_right1(event) {
     
    }
 
+
+   ////////////////////////////////
+//    var white1= document.getElementById("white");
+//    white1.addEventListener("mouseenter",pop);
+//    var black1 = document.getElementById("black");
+//    black1.addEventListener("mouseover",pop)
+   function pop(event){
+    //    var black1 = document.getElementById("black");
+    //    black1.style.zIndex ="10";
+    //    black1.style.height ="240"+"px"
+    //    black1.style.position = "absolute"
+    //    black1.style.width ="240"+"px"
+    //    black1.style.background="black"
+    //    black1.style.transform ="translate(0px,-244px)"
+    //    black1.style.opacity="70%"  
+    //    document.getElementById("p2").style.visibility="visible"
+    //    document.getElementById("white_img1").style.visibility="visible"
+    //    console.log("hii")
+    event.target.style.filter = "brightness(0.5)"
+   }
+   function pop2(event){
+    event.target.style.filter = "brightness(1)"
+   }
+//    white1.addEventListener("mouseout",img_show);
+//    black1.addEventListener("mouseout",img_show);
+//    function img_show(){
+//     var black1 = document.getElementById("black");
+//     black1.style.height ="0"+"px"
+//     black1.style.width ="0"+"px"
+//     document.getElementById("p2").style.visibility="hidden"
+//     document.getElementById("white_img1").style.visibility="hidden"
+//    }
+//    var x= document.getElementById("white_img1");
+//    x.addEventListener("mouseover",big);
+
+//    function big(){
+//        x.style.width ="80px"
+//        x.style.transform="translate(10px, 90px)"
+//        x.style.marginLeft="75px"
+//    }
+
+////////////////////////////////////////
+var white11 = document.getElementsByClassName("white1")
+//console.log(white11)
+
+

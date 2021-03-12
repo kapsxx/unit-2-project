@@ -596,6 +596,8 @@ body {
   width: 240px;
   margin-left: 15px;
   cursor: pointer;
+  z-index: 0;
+  position: relative;
 }
 
 #prev1,
@@ -611,7 +613,7 @@ body {
   font-size: 40px;
   margin-left: 5px;
   z-index: 2;
-  transform: translate(0px, 100px);
+  transform: translate(0px, 95px);
   position: absolute;
 }
 #cont8 {
@@ -620,9 +622,81 @@ body {
   overflow: hidden;
   margin-right: 2px;
 }
+
+#prev1 > a{
+  visibility: hidden;
+}
+#black>p{
+    transform: translate(0px, 20px); 
+    position: absolute;
+    z-index: 2;
+    color: white;
+    visibility: hidden;
+    margin-left: 85px;
+    font-size: 20px;
+}
+
+#white_img1{
+    transform: translate(10px, 100px); 
+    position: absolute;
+    z-index: 2;
+    margin-left: 80px;
+    font-size: 18px;
+    background-color: white;
+    visibility: hidden;
+}
+#white_img1:hover{
+    width :80px;
+    transform :translate(10px, 90px);
+    margin-left:75px;
+}
+/* aaaaaa */
+.black1>p{
+    transform: translate(0px, 20px); 
+    position: absolute;
+    z-index: 2;
+    color: white;
+    visibility: hidden;
+    margin-left: 85px;
+    font-size: 20px;
+}
+.white_img11{
+    transform: translate(10px, 100px); 
+    position: absolute;
+    z-index: 2;
+    margin-left: 80px;
+    font-size: 18px;
+    background-color: white;
+    visibility: hidden; 
+}
+
+.white_img11:hover{
+    width :80px;
+    transform :translate(10px, 90px);
+    margin-left:75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #prev1 > a {
   visibility: hidden;
 }
+
 
 /* footer css starts */
 
