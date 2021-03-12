@@ -2,7 +2,7 @@ let clk = document.querySelector("#clickme");
 clk.addEventListener("click", handlehomepage);
 
 function handlehomepage(event){
-    location.assign("https://www.rodanandfields.com/");
+    location.assign("index.html");
 }
 
 let mydot1 = document.querySelector("#dot1");
