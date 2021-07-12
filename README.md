@@ -17,8 +17,8 @@ The entire replication of the website is achieved using HTML and CSS. Also, in o
 > Executing the commands mentioned below one by one in your command line will help in making this application run on your system.
 > 
 > ```bash
-> git clone https://github.com/kiranjolisa/team-carbon-olx-clone.git
-> cd ./team-carbon-olx-clone
+> git clone https://github.com/kapsxx/unit-2-project.git
+> cd ./unit-2-project
 > ```
 > After entering the commands mentioned above, open index.html with live server.
 
