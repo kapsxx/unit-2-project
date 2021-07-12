@@ -7,7 +7,7 @@ The entire replication of the website is achieved using HTML and CSS. Also, in o
 # Rodan + Fields Clone - Website Clone - Project Work
 > Rodan and Fields is one of the top selling brands in the US founded in 2000 by Stanford-trained Dermatologists Dr. Katie Rodan and Dr. Kathy Fields. It is a skincare company which provides top notch skincare products. It has more than 300,000 enrolled Independent Consultants and over two million Preferred Customers.
 
-<img src="" width="400" h  alt = "R+F Logo"/>
+<img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image8.png" width="400" height="auto" alt = "R+F Logo"/>
 
 ## Installing and Running
 > Executing the commands mentioned below one by one in your command line will help in making this application run on your system.
