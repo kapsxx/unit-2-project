@@ -1,12 +1,8 @@
-# Project - Replicating "rodanandfields.com"
+<!-- # Project - Replicating "rodanandfields.com"
 
 The entire replication of the website is achieved using HTML and CSS. Also, in order to make it look more interactive, we have used DOM Manipulations and event listeners along with Javascript. We have tried to compile maximum number of concepts which have been taught to us in Masai School in a single project. The entire project comprises of 3 webpages entirely interactive and responisve.
 
-***All the HTML files are attached along with CSS and Javascript files in the repository.***
-
-
-
------------------------------------------------------------------------------------------------------------------------------
+***All the HTML files are attached along with CSS and Javascript files in the repository.*** -->
 
 # Rodan + Fields Clone - Website Clone - Project Work
 > Rodan and Fields is one of the top selling brands in the US founded in 2000 by Stanford-trained Dermatologists Dr. Katie Rodan and Dr. Kathy Fields. It is a skincare company which provides top notch skincare products. It has more than 300,000 enrolled Independent Consultants and over two million Preferred Customers.
@@ -30,18 +26,17 @@ The entire replication of the website is achieved using HTML and CSS. Also, in o
 > &ensp; <img src = "https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" width = "100" height = "100" alt = "Javascript Logo">
 
 ## Snapshots from the Built Product
-> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image.png" width="405" height="200"  alt = "OLX Landing page"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image1.png" width="405" height="200"  alt = "OLX Landing page"/>
 
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FloginPage.png?alt=media&token=57200643-27fb-4123-a365-e64694baefca" width="200" height="150"  alt = "login"/>
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FporfileAfterLogin.png?alt=media&token=392ec81f-907d-4327-9e67-3c621c4998be" width="200" height="150"  alt = "Profile after login"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image.png" width="200" height="150"  alt = "login"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image2.png" width="200" height="150"  alt = "Profile after login"/>
 
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FadPostSuccess.png?alt=media&token=34302370-b300-446b-b507-b433129e9de3" width="405" height="200"  alt = "OLX ad post success page"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image3.png" width="405" height="200"  alt = "OLX ad post success page"/>
 
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FadPost.png?alt=media&token=ecb23809-3222-4396-ac5c-3a3921fea50b" width="200" height="150"  alt = "form"/>
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FadPostUserInfo.png?alt=media&token=b9cf631e-7b14-4c6a-9bb0-be0b3d61bdff" width="200" height="150"  alt = "Profile details in ad"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image4.png" width="200" height="150"  alt = "form"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image5.png" width="200" height="150"  alt = "Profile details in ad"/>
 
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FchatFeatureRunning.png?alt=media&token=e106e448-5da5-4321-a130-a205d7544b6e" width="405" height="200"  alt = "chat running"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image6.png" width="405" height="200"  alt = "chat running"/>
 
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FdetailedInfo.png?alt=media&token=cfde81fd-a0c8-4db9-9e15-24f5723033ed" width="200" height="150"  alt = "detailed info"/>
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FsearchResults.png?alt=media&token=7a2681cb-eea2-402a-872c-859291a1baa4" width="200" height="150"  alt = "search res"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image7.png" width="405" height="200"  alt = "detailed info"/>
 > 
