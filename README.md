@@ -30,7 +30,7 @@ The entire replication of the website is achieved using HTML and CSS. Also, in o
 > &ensp; <img src = "https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" width = "100" height = "100" alt = "Javascript Logo">
 
 ## Snapshots from the Built Product
-> <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FLandingPage.png?alt=media&token=109e46f7-8748-483e-9edb-043042cabf12" width="405" height="200"  alt = "OLX Landing page"/>
+> <img src="https://raw.githubusercontent.com/kapsxx/unit-2-project/main/image.png" width="405" height="200"  alt = "OLX Landing page"/>
 
 > <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FloginPage.png?alt=media&token=57200643-27fb-4123-a365-e64694baefca" width="200" height="150"  alt = "login"/>
 > <img src="https://firebasestorage.googleapis.com/v0/b/olx-clone-image-store.appspot.com/o/readmeImgs%2FporfileAfterLogin.png?alt=media&token=392ec81f-907d-4327-9e67-3c621c4998be" width="200" height="150"  alt = "Profile after login"/>
